@@ -1,5 +1,4 @@
 function takeANumber(array, name) {
-  
   var position = array.push(name); 
   return  `Welcome, ${name}. You are number ${position} in line.`;
 }
